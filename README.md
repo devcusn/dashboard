@@ -4,7 +4,13 @@ A dashboard app built with TypeScript, Vite, React, and Tailwind CSS.
 
 ## Preview
 
+#### Dashboard Page
+
 ![Dashboard App Preview](docs/dashboard.png)
+
+#### Login Page
+
+![Dashboard App Preview](docs/login.png)
 
 ## Table of Contents
 

@@ -1,9 +1,9 @@
-import DashboardLayout from "./Layout/Dashboard.layout";
+import Provider from "./bootstrap";
 
 function App() {
   return (
     <>
-      <DashboardLayout />
+      <Provider />
     </>
   );
 }

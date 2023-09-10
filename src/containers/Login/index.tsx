@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router-dom";
 import { AppSettings } from "../../settings/App.settings";
 
 const LoginPage: React.FunctionComponent = () => {
+  const navigate = useNavigate();
   return (
     <div className="flex items-center justify-center h-screen flex-col ">
       <div className="text-3xl p-10">{AppSettings.name}</div>
@@ -34,7 +36,8 @@ const LoginPage: React.FunctionComponent = () => {
             />
           </div>
           <button
-            type="submit"
+            onClick={() => navigate("/overview")}
+            type="button"
             className="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
           >
             Login

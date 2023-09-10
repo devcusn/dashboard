@@ -10,9 +10,7 @@ const DashboardLayout: React.FunctionComponent<DashboardLayoutProps> = ({
       <SideBar />
       <div className="flex gap-5 flex-col w-full p-6 ">
         <DashboardHeader />
-        <div className="h-full border-solid border-2 border-slate-300">
-          {children}
-        </div>
+        <div className="h-full">{children}</div>
       </div>
     </div>
   );

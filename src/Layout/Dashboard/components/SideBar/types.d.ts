@@ -1,5 +1,5 @@
 export type MenuItemProps = {
   title: string;
-  icon: string;
+  icon: React.ReactElement;
   to: string;
 };

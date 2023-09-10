@@ -10,9 +10,12 @@ const MenuItem: React.FunctionComponent<MenuItemProps> = ({
 }) => {
   const navigate = useNavigate();
   return (
-    <div onClick={() => navigate(to)}>
+    <div
+      className="flex items-center gap-2 p-2 hover:bg-indigo-100 cursor-pointer"
+      onClick={() => navigate(to)}
+    >
       {icon}
-      <span>{title}</span>
+      <span className="text-xl">{title}</span>
     </div>
   );
 };

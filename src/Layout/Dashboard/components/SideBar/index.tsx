@@ -4,7 +4,7 @@ import MenuItem from "./MenuItem";
 
 const SideBar = () => {
   return (
-    <div className="w-56  border-r-2 border-slate-300">
+    <div className="w-72 border-r-2 border-slate-200 bg-white">
       <div className="flex gap-2 items-center py-3 px-2 ">
         {AppSettings.logo}
         <p className="text-xl font-sans ">{AppSettings.name}</p>

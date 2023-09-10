@@ -28,14 +28,13 @@ const LandingPage: React.FunctionComponent = () => {
             Key Features
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Feature 1 */}
             <div className="border p-4 rounded-lg hover:shadow-md">
               <h3 className="text-xl font-semibold text-blue-600">Feature 1</h3>
               <p className="text-gray-700 mt-2">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
             </div>
-            {/* Feature 2 */}
+
             <div className="border p-4 rounded-lg hover:shadow-md">
               <h3 className="text-xl font-semibold text-blue-600">Feature 2</h3>
               <p className="text-gray-700 mt-2">
@@ -43,7 +42,7 @@ const LandingPage: React.FunctionComponent = () => {
                 aliqua.
               </p>
             </div>
-            {/* Feature 3 */}
+
             <div className="border p-4 rounded-lg hover:shadow-md">
               <h3 className="text-xl font-semibold text-blue-600">Feature 3</h3>
               <p className="text-gray-700 mt-2">
